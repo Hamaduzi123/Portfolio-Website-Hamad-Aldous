@@ -312,7 +312,7 @@ section{
     font-size: 50px;
 }
 #contacts{
-    width: 100%;
+
     font-size: 25px;
     display: flex;
     flex-direction: column;
@@ -349,7 +349,7 @@ footer{
     width: 100%;
     border-top: solid black 2px;
     height: 100px;
-    padding: 20px;
+
     background-color: rgb(0,0,0,0.03);
 }
 
