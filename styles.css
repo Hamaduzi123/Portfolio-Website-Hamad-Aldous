@@ -25,6 +25,7 @@ nav,.nav-links ul{
 }
 
 nav{
+    width: 100%;
     justify-content: space-between;
     height: 100px;
     align-items: center;
