@@ -1,0 +1,78 @@
+/* Mobile css design */
+
+@media (max-width:1100px){
+    .about-me{
+        margin: 50px 0 0 0;
+
+    }
+    
+}
+
+@media (max-width:840px){
+    #home-page{
+        flex-direction: column;
+        margin: 0 0px 440px 35px;
+        align-items: center;
+    }
+    .about-me{
+        margin: 40px 0 0 0;
+        width: fit-content;
+    }
+    .about-me p{
+        text-align: justify;
+    }
+    .about-me .header{
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .education p{
+        font-size: 18px;
+    }
+    .education img{
+        height: 20px;
+    }
+    
+    /* experince */
+    .skill-container{
+        grid-template-columns: 250px;
+        width: 250px;
+        
+    }
+    .skill p{
+        font-size: 20px;
+    }
+    .skill img{
+        height: 40px;
+    }
+    #experience{
+        margin: 0px 0 150px 0;
+        width: 100vw;
+        align-items: center;
+    }
+    /* contacts */
+    #contacts{
+        font-size: 16px;
+        height: 60vh;
+    }
+    #contacts h1{
+        font-size: 30px;
+    }
+    .contact-container{
+        padding: 20px;
+    }
+    .contact-container:hover{
+        padding: 20px 25px;
+    }
+}
+@media (max-width:405px) {
+    #home-page{
+        margin-bottom: 570px;
+    }
+    
+}
+@media (max-width:340px) {
+    #home-page{
+        margin-bottom: 610px;
+    }
+    
+}
